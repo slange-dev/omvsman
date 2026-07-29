@@ -25,4 +25,3 @@
 *.xls binary
 *.xlsx binary
 *.xlsm binary
-OMVSMAN.PDS/OMVSMAN git-encoding=BINARY zos-working-tree-encoding=BINARY binary
