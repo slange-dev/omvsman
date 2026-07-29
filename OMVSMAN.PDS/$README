@@ -1,8 +1,14 @@
 OMVSMAN is an ISPF dialog that presents the user with a table of all
 available MAN pages, or will directly display a specific manpage.
 
-Installation is to copy the OMVSMAN exec from this PDS into a library in
+Installation is to copy the OMVSMAN member from this PDS into a library in
 your SYSPROC or SYSEXEC allocations.
+
+NOTE: the OMVSMAN member is shipped in Git as binary due to some control
+      characters that don't translate well from EBCDIC. If you received
+      the package from the CBTTape then you're fine, if you received it
+      via GIT then it needs to be copied to z/OS in binary so that the
+      z/OS copy will be in EBCDIC and usable.
 
  Name:      OMVSMAN
 
